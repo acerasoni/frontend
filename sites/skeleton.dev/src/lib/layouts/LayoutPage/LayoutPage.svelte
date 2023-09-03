@@ -27,14 +27,15 @@
 		<!-- Ad Position -->
 		<aside class="layout-cols-aside {classesColRight}">
 			<!-- Ad Position (production only) -->
-			{#if $storeVercelProductionMode === true}
+			<!-- TODO: Ads!! -->
+			<!-- {#if $storeVercelProductionMode === true}
 				<script
 					async
 					type="text/javascript"
 					src="//cdn.carbonads.com/carbon.js?serve=CWYD627U&placement=carbonadsnet"
 					id="_carbonads_js"
 				></script>
-			{/if}
+			{/if} -->
 			<!-- Table of Contents -->
 			<TableOfContents>On the Page</TableOfContents>
 		</aside>

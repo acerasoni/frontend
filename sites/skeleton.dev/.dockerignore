@@ -24,3 +24,5 @@ package
 README-tmp.md
 
 Dockerfile
+*.md
+dist
