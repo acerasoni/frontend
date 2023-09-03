@@ -1,0 +1,26 @@
+# .dockerignore
+
+frontend/.vscode
+node_modules
+.svelte-kit
+build
+package
+
+.prettierrc
+.pretieriignore
+.dockerignore
+.gitignore
+.npmrc
+.eslintrc.cjs
+
+**/.env
+
+.git
+.gitattributes
+
+.eslintignore
+.eslintrc.cjs
+
+README-tmp.md
+
+Dockerfile
