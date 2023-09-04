@@ -1,38 +1,40 @@
-[![Skeleton](https://user-images.githubusercontent.com/1509726/199282306-7454adcb-b765-4618-8438-67655a7dee47.png)](https://www.skeleton.dev/)
+# create-svelte
 
-[![npm version](https://img.shields.io/npm/v/@skeletonlabs/skeleton?logo=npm&color=cb3837)](https://www.npmjs.com/package/@skeletonlabs/skeleton)
-[![Chat](https://img.shields.io/discord/1003691521280856084?label=chat&logo=discord&color=7289da)](https://discord.gg/EXqV7W8MtY)
-[![license](https://img.shields.io/badge/license-MIT-%23bada55)](https://github.com/skeletonlabs/skeleton/blob/master/LICENSE)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-# 💀 Skeleton
+## Creating a project
 
-Skeleton is an open source UI toolkit built with Svelte + Tailwind that allows you to create reactive web interfaces using [Svelte](https://svelte.dev/) + [Tailwind CSS](https://tailwindcss.com/).
+If you're seeing this, you've probably already done this step. Congrats!
 
-## 🔗 Useful Links
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- [Documentation](https://skeleton.dev/)
-- [Contribution Guide](https://skeleton.dev/docs/contributing)
-<!-- - [Project Roadmap](https://github.com/skeletonlabs/skeleton/wiki/%F0%9F%9B%A3%EF%B8%8F-The-Skeleton-Roadmap) -->
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## 👋 Community
+## Developing
 
-- [Join the Discord](https://discord.gg/EXqV7W8MtY)
-- [Follow on Twitter](https://twitter.com/SkeletonUI)
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## 👍 Sponsor the Project
+```bash
+npm run dev
 
-- [Ko-Fi](https://ko-fi.com/skeletonlabs)
-- [GitHub Sponsors](https://github.com/sponsors/skeletonlabs)
-- [Patreon](https://patreon.com/user?u=83786276)
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-## 🐞 Report an Issue
+## Building
 
-- [File a Ticket](https://github.com/skeletonlabs/skeleton/issues/new/choose)
+To create a production version of your app:
 
-## 🛠️ Contributions
+```bash
+npm run build
+```
 
-We have provided a detailed [contribution guide](https://www.skeleton.dev/docs/contributing) to help you get started. [Find an open issue](https://github.com/skeletonlabs/skeleton/issues), discuss the requirements with other contributors, then send a PR!
+You can preview the production build with `npm run preview`.
 
-## Maintainers
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-Skeleton was created by [Chris Simmons](https://github.com/endigo9740) (@endigo9740) and is currently maintained by [Skeleton Labs](https://www.skeletonlabs.co/) and the open source community.
+docker run -d -p 3000:3000 --name frontend bc5d21625888
