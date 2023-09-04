@@ -1,6 +1,6 @@
 # Source: https://gist.github.com/aradalvand/04b2cad14b00e5ffe8ec96a3afbb34fb
 
-ENV node_version=20-slim
+ARG node_version=20-slim
 
 FROM node:${node_version} AS builder
 WORKDIR /app
